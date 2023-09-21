@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #be3144;
 }
 
 ul {
@@ -7,7 +8,7 @@ ul {
   margin: 0;
   padding: 5px;
   overflow: hidden;
-  background-color: #cc0000;
+  background-color: #be3144;
   position: fixed;
   top: 0;
   width: 100%;
@@ -28,7 +29,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #002448;
+  background-color: #45567d;
 }
 
 .active {
@@ -51,7 +52,16 @@ li a:hover:not(.active) {
   margin: 10px;
 }
 .web {
-  color: #cc0000;
+  color: #be3144;
   font-size: 2rem;
   margin: 0%;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  margin-top: 2.5px;
+
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
